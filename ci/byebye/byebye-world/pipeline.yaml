@@ -1,0 +1,13 @@
+---
+jobs:
+  - name: byebye-world
+    plan:
+      - task: echo-message
+        config:
+          platform: linux
+          image_resource:
+            type: registry-image
+            source: { repository: busybox }
+          run:
+            path: echo
+            args: ["Bye bye world!"]
