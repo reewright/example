@@ -1,0 +1,3 @@
+[submodule ".reewright.d"]
+	path = .reewright.d
+	url = https://github.com/reewright/.reewright.d.git
