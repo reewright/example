@@ -1,3 +1,7 @@
 [submodule ".reewright.d"]
 	path = .reewright.d
 	url = https://github.com/reewright/.reewright.d.git
+[submodule ".devcontainer"]
+	path = .devcontainer
+	url = https://github.com/idemlabs/.devcontainer.git
+	branch = concourse
